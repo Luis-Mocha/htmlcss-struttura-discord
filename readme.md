@@ -2,7 +2,7 @@
 Riproduco l'home-page di Discord
 ---
 Per riprodurre il layout utilizzo le proprietà di **Flexbox**.
----
+
 Divido l'esercizio in due giorni:
 - Primo giorno: realizzo la struttura base del sito utilizzando solo blocchi colorati, senza inserire ancora testi, img o dettagli.
 ---
