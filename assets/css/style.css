@@ -1,0 +1,18 @@
+/* Css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* UTILITY */
+/* classe per appilcare uguali width e margin ai contenuti di ogni sezione */
+.container {
+    width: 90%;
+    margin: auto;
+}
+/* classe per i background delle sezioni grigie*/
+.bg-gray {
+    background-color: rgb(246,246,246);
+}
+
