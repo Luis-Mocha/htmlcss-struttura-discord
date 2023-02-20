@@ -1,4 +1,12 @@
-/* Css reset */
+/*
+COLORI
+- Background sezioni grigie
+    background-color: rgb(246,246,246);
+- Background footer
+    background-color: rgb(35,39,42);
+*/
+
+/* CSS RESET */
 * {
     margin: 0;
     padding: 0;
