@@ -1,5 +1,7 @@
 /*
 COLORI
+- Background Header
+    background-color: rgb(49,97,224);
 - Background sezioni grigie
     background-color: rgb(246,246,246);
 - Background footer
@@ -13,14 +15,58 @@ COLORI
     box-sizing: border-box;
 }
 
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* UTILITY */
 /* classe per appilcare uguali width e margin ai contenuti di ogni sezione */
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 /* classe per i background delle sezioni grigie*/
 .bg-gray {
     background-color: rgb(246,246,246);
 }
+
+/* HEADER */
+header {
+    background-color: rgb(49,97,224);
+    height: 400px;
+}
+/* Nav Header */
+header nav {
+    height: 15%;
+    /* background-color: rgb(103, 131, 206); */
+    background-color: rgb(214,165,53);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-lista-link {
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-around;
+}
+
+/* Contenuto header */
+#header-contenuto {
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-box {
+    background-color: violet;
+    height: 80%;
+    width: 50%;
+}
+
 
