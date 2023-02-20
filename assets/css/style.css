@@ -26,7 +26,7 @@ a {
 /* UTILITY */
 /* classe per appilcare uguali width e margin ai contenuti di ogni sezione */
 .container {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 /* classe per i background delle sezioni grigie*/
@@ -55,7 +55,7 @@ header nav {
     flex-basis: 50%;
     justify-content: space-around;
 }
-
+/* Ho colorato l'header solo per differenziarlo visivamente. nel momento in cui si va a dare a tutto l'header un immagine di background non vi è piu bisogno */
 /* Contenuto header */
 #header-contenuto {
     height: 85%;
@@ -67,6 +67,24 @@ header nav {
     background-color: violet;
     height: 80%;
     width: 50%;
+}
+
+/* MAIN */
+.sezioni-contenuto {
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.box {
+    height: 80%;
+}
+.blue {
+    background-color: rgb(64,146,255);
+    width: 60%;
+}
+.pink {
+    background-color: rgb(251,193,207);
+    width: 40%;
 }
 
 
